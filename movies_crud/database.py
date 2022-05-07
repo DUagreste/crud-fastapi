@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./movie_database.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./movies.db"
 
 # creating engine
 # By default, check_same_thread is True and only the creating thread may use
