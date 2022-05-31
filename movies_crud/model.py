@@ -3,10 +3,6 @@ from database import Base
 
 
 class Movies(Base):
-    """
-    This is a model class. which is having the movie table
-    structure with all the constraint
-    """
     __tablename__ = "movie"
     id = Column(Integer, primary_key=True, autoincrement=True,
                 index=True, nullable=False)

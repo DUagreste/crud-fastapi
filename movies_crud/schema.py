@@ -26,6 +26,10 @@ class Movie(MovieAdd):
 
 
 class UpdateMovie(BaseModel):
+    movie_name: str
+    director: str
+    geners: str
+    cast: str
     streaming_platform: Optional[str] = None
     membership_required: bool
 
